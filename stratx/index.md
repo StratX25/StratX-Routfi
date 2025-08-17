@@ -5,75 +5,70 @@ parent: Platforms
 nav_order: 1
 ---
 
----
-layout: default
-title: StratX
-parent: Platforms
-nav_order: 1
----
+<div class="hero">
+  <h1>StratX: The Policy Brain</h1>
+  <p class="lead">
+    StratX is the orchestration and governance layer of programmable finance.
+    It defines <strong>what is allowed</strong> — setting the rules of the game for institutions, governments, and enterprises.
+  </p>
+</div>
 
-# StratX: The Policy Brain
+<div class="card">
+  <h2>What is StratX?</h2>
+  <p>
+    StratX provides a unified policy and governance engine for global financial flows.  
+    It ensures that money moves only within defined guardrails, across legacy systems, CBDCs, and blockchains.
+  </p>
+  <ul>
+    <li><strong>Rules before money moves:</strong> Every transaction passes policy checks first.</li>
+    <li><strong>Programmable governance:</strong> Regulations and policies are codified into enforceable rules.</li>
+    <li><strong>Cross-rail oversight:</strong> StratX ensures consistent compliance across all rails.</li>
+  </ul>
+</div>
 
-StratX is the high-level orchestration and governance layer of the system.  
-It defines **what is allowed** — setting the rules of the game for institutions, governments, and enterprises.  
+<div class="card">
+  <h2>Who It’s For</h2>
+  <ul>
+    <li><strong>Governments</strong> — enforce monetary policies and connect CBDCs to global commerce.</li>
+    <li><strong>Banks</strong> — operate safely between fiat and digital assets without losing compliance.</li>
+    <li><strong>Enterprises</strong> — automate treasury, payroll, and global operations within clear rules.</li>
+  </ul>
+</div>
 
-Where RouteFi is the muscle that executes, StratX is the brain that ensures every action is compliant, transparent, and aligned with policy.
+<div class="card">
+  <h2>Key Capabilities</h2>
+  <ul>
+    <li><strong>Unified policy engine:</strong> Define once, enforce everywhere.</li>
+    <li><strong>Interoperability layer:</strong> Consistent rules across legacy and decentralized systems.</li>
+    <li><strong>Audit and reporting:</strong> Real-time logs and cryptographic proofs for transparency.</li>
+    <li><strong>Dynamic rule updates:</strong> Adapt policies instantly without redeploying infrastructure.</li>
+  </ul>
+</div>
 
----
+<div class="card">
+  <h2>Guardrails</h2>
+  <ul>
+    <li>All transactions must pass policy checks before approval.</li>
+    <li>Only approved assets and rails are accessible; others are blocked.</li>
+    <li>Multi-signature and role-based access prevent single points of failure.</li>
+  </ul>
+</div>
 
-## What is StratX?
+<div class="card">
+  <h2>How StratX Complements RouteFi</h2>
+  <p>
+    StratX sets the policy. RouteFi enforces it.  
+    StratX governs. RouteFi executes.  
+    Together, they complete the circle: one defines the law, the other ensures it is always followed.
+  </p>
+</div>
 
-StratX provides a **unified policy and governance engine** for the world’s financial flows.  
-
-- **Rules before money moves**: Every transfer must pass StratX policy checks before settlement.  
-- **Programmable governance**: Institutions can codify laws, regulations, or internal policies into machine-readable rules.  
-- **Cross-rail oversight**: Whether funds move through banks, CBDCs, or blockchains, StratX provides a consistent compliance layer.  
-
----
-
-## Who It’s For
-
-- **Governments** — connecting CBDCs and national payment systems while enforcing monetary policies programmatically.  
-- **Banks and regulated institutions** — interoperating with digital assets safely, without losing compliance guarantees.  
-- **Enterprises** — automating treasury flows, payroll, and cross-border operations while staying inside guardrails.  
-
----
-
-## Key Capabilities
-
-- **Unified policy engine**: Define once, enforce everywhere.  
-- **Interoperability layer**: Works across legacy rails and blockchains with a consistent interface.  
-- **Audit and reporting**: Real-time logs and cryptographic proofs provide visibility to regulators and stakeholders.  
-- **Dynamic rule updates**: Adjust compliance policies without redeploying infrastructure.  
-
----
-
-## Guardrails
-
-- Every transaction passes through **policy checks** before approval.  
-- Only **approved assets and rails** are used — others are blocked automatically.  
-- **Multi-sign and role-based access** prevent single points of failure.  
-
----
-
-## How StratX Complements RouteFi
-
-- **StratX sets the policy. RouteFi enforces it.**  
-- **StratX governs. RouteFi executes.**  
-- Together, they **complete the circle**: one defines the law, the other ensures the law is always followed.  
-
-This dual system ensures that financial flows are both programmable and controlled, balancing innovation with trust.
-
----
-
-## Outcomes for Society
-
-- **More transparent finance**: Citizens and institutions see clear rules applied consistently.  
-- **Fewer disputes**: Automated enforcement reduces room for misinterpretation.  
-- **Greater stability**: Frictionless, rule-driven flows ease pressure on cross-border commerce and reduce escalation into conflict.  
-- **Programmable trust**: Rules are no longer promises on paper — they are embedded into the fabric of financial infrastructure.
-
----
-
-StratX is the **policy brain**. RouteFi is the **execution muscle**.  
-Only together can they provide the programmable infrastructure to keep the world’s financial system in balance.
+<div class="card">
+  <h2>Outcomes for Society</h2>
+  <ul>
+    <li><strong>Transparency:</strong> Citizens and institutions see consistent rules applied everywhere.</li>
+    <li><strong>Fewer disputes:</strong> Automated enforcement reduces gray zones and misinterpretation.</li>
+    <li><strong>Greater stability:</strong> Rule-driven flows support smoother global commerce.</li>
+    <li><strong>Programmable trust:</strong> Policies are no longer promises — they are embedded in the system itself.</li>
+  </ul>
+</div>
