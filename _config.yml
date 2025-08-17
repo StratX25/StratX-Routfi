@@ -5,5 +5,20 @@ url: "https://StratX25.github.io"
 baseurl: "/StratX-Routfi"
 color_scheme: light
 
+# Custom CSS
 assets:
   - "assets/css/style.css"
+
+# Sidebar navigation order
+# You can set nav_order inside pages, but also group sections here
+nav_order: 1
+
+# Aux links (top-right corner)
+aux_links:
+  "GitHub Repo":
+    - "https://github.com/StratX25/StratX-Routfi"
+
+# Collections (optional if you want blog-style grouping)
+collections:
+  news:
+    output: true
