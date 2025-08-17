@@ -7,14 +7,6 @@ nav_order: 1
 
 # Boilerplate Copy
 
-## 25‑Word Description
-
-StratX and RouteFi connect legacy financial systems and decentralized networks. They provide a policy‑driven, programmable infrastructure designed to help institutions move money safely and efficiently.
-
-## 50‑Word Description
-
-StratX and RouteFi form a unified platform that bridges legacy payment rails, central bank digital currencies, and blockchain networks. StratX defines and enforces policies across networks, while RouteFi executes routes through fiat and digital assets. Together they enable compliant, programmable money movement designed to support economic stability and reduce friction.
-
 ## 100‑Word Description
 
 StratX is a high‑level policy and orchestration layer, and RouteFi is an institutional wallet and routing engine. Together they connect legacy financial rails with central bank digital currencies and blockchain networks. StratX defines compliance rules that apply across rails; RouteFi executes those rules to move money through the most efficient path. This programmable, institution‑grade infrastructure is designed to reduce settlement times, increase transparency, and lower costs while maintaining regulatory compliance. Although targeted at institutions, the resulting efficiencies aim to benefit citizens through faster payments, lower fees, and clearer rules.
