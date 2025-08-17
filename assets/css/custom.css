@@ -1,37 +1,51 @@
 :root {
-  --color-background: #ffffff;
-  --color-primary: #001f3f;   /* deep navy */
-  --color-link: #0074d9;      /* bright blue */
-  --color-border: #dddddd;
-  --color-text: #333333;
+  --color-background: #0b0f13;   /* dark navy background */
+  --color-primary: #44d4a8;      /* mint green accents */
+  --color-accent: #7aa7ff;       /* soft blue highlights */
+  --color-text: #e7edf5;         /* light text */
+  --color-muted: #a9b6c6;
 }
 
-/* Base styling */
 body {
   background-color: var(--color-background);
   color: var(--color-text);
-  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  line-height: 1.6;
 }
 
-/* Links */
 a {
-  color: var(--color-link);
+  color: var(--color-accent);
+  font-weight: 600;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
 
-/* Navbar */
-.navbar {
-  background-color: var(--color-primary);
-  color: #ffffff;
+.navbar, .side-bar {
+  background: #121821;
 }
 
-/* Headings */
 h1, h2, h3 {
   color: var(--color-primary);
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
+
+button, .btn {
+  background: var(--color-primary);
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #0b0f13;
+  font-weight: 600;
+  border-radius: 8px;
+  transition: background 0.2s ease-in-out;
+}
+button:hover, .btn:hover {
+  background: var(--color-accent);
+  color: #fff;
+}
+
 
 /* Cards/boxes (optional use in future) */
 .card {
@@ -41,5 +55,6 @@ h1, h2, h3 {
   margin: 1rem 0;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
 }
+
 
 
