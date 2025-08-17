@@ -22,3 +22,4 @@ aux_links:
 collections:
   news:
     output: true
+    permalink: /news/:year/:month/:day/:title/
