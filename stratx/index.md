@@ -1,7 +1,8 @@
 ---
 layout: default
 title: StratX
-nav_order: 2
+parent: Platforms
+nav_order: 1
 ---
 
 # StratX
