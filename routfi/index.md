@@ -1,7 +1,8 @@
 ---
 layout: default
 title: RouteFi
-nav_order: 3
+parent: Platforms
+nav_order: 2
 ---
 
 # RouteFi
