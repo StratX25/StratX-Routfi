@@ -1,20 +1,27 @@
 :root {
-  --color-background: #0b0f13;   /* dark navy background */
-  --color-primary: #44d4a8;      /* mint green accents */
-  --color-accent: #7aa7ff;       /* soft blue highlights */
-  --color-text: #e7edf5;         /* light text */
-  --color-muted: #a9b6c6;
+  --bg: #0b0f13;         /* deep navy background */
+  --card: #121821;       /* card background */
+  --ink: #e7edf5;        /* primary text */
+  --muted: #a9b6c6;      /* secondary text */
+  --accent: #44d4a8;     /* mint green */
+  --accent-2: #7aa7ff;   /* soft blue */
 }
 
 body {
-  background-color: var(--color-background);
-  color: var(--color-text);
+  background: var(--bg);
+  color: var(--ink);
   font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-  line-height: 1.6;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: -0.5px;
 }
 
 a {
-  color: var(--color-accent);
+  color: var(--accent-2);
   font-weight: 600;
   text-decoration: none;
 }
@@ -22,39 +29,56 @@ a:hover {
   text-decoration: underline;
 }
 
-.navbar, .side-bar {
-  background: #121821;
+.hero {
+  background: linear-gradient(135deg, #0b0f13, #121821);
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  text-align: center;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
 }
 
-h1, h2, h3 {
-  color: var(--color-primary);
-  font-weight: 700;
-  letter-spacing: -0.5px;
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
-button, .btn {
-  background: var(--color-primary);
-  border: none;
-  padding: 0.5rem 1rem;
+.hero .lead {
+  font-size: 1.25rem;
+  color: var(--muted);
+}
+
+.card {
+  background: var(--card);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  margin-bottom: 2rem;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+}
+.card ul li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 8px;
+  background: var(--accent);
   color: #0b0f13;
   font-weight: 600;
-  border-radius: 8px;
-  transition: background 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
-button:hover, .btn:hover {
-  background: var(--color-accent);
+.btn:hover {
+  background: var(--accent-2);
   color: #fff;
+  transform: translateY(-2px);
 }
-
-
-/* Cards/boxes (optional use in future) */
-.card {
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  padding: 1rem;
-  margin: 1rem 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-}
-
 
 
