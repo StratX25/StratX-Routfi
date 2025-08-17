@@ -1,7 +1,8 @@
 ---
 layout: default
 title: How It Fits Together
-nav_order: 4
+parent: Documentation
+nav_order: 1
 ---
 
 # How It Fits Together
