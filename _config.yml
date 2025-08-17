@@ -1,0 +1,14 @@
+
+remote_theme: just-the-docs/just-the-docs
+title: "StratX & RouteFi"
+description: "Programmable infrastructure connecting legacy and DeFi rails."
+url: "" # Set to your site's URL when deployed
+baseurl: ""
+color_scheme: light
+
+aux_links:
+  "Learn about StratX": "/stratx/"
+  "Explore RouteFi": "/routefi/"
+  "How It Fits Together": "/architecture/"
+assets:
+  - "assets/css/custom.css"

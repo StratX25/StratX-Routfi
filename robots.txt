@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# If deploying on a custom domain, set `url` in _config.yml and this sitemap path will update accordingly
+Sitemap: {{ site.url }}{{ site.baseurl }}/sitemap.xml

@@ -1,0 +1,21 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>{{ site.url }}{{ site.baseurl }}/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/stratx/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/routefi/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/architecture/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/use-cases/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/benefits/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/faq/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/news/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/contact/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/press-kit/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/press-kit/boilerplate/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/legal/privacy/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/legal/terms/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/legal/ip-notice/</loc></url>
+  <url><loc>{{ site.url }}{{ site.baseurl }}/changelog/</loc></url>
+</urlset>
