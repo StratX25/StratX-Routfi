@@ -21,8 +21,8 @@ nav_order: 1
     <li><strong>Programmable by nature</strong>: update policy rules without redeploying infrastructure.</li>
   </ul>
   <p>
-    <a class="btn" href="{{ site.baseurl }}/stratx/">Learn about StratX</a>
-    <a class="btn" href="{{ site.baseurl }}/routefi/">Explore RouteFi</a>
-    <a class="btn" href="{{ site.baseurl }}/faq/">Read the FAQ</a>
+    <a class="btn" href="{{ site.baseurl }}/StratX/">Learn about StratX</a>
+    <a class="btn" href="{{ site.baseurl }}/Routfi/">Explore RouteFi</a>
+    <a class="btn" href="{{ site.baseurl }}/FAQ/">Read the FAQ</a>
   </p>
 </div>
