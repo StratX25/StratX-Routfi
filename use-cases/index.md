@@ -1,8 +1,10 @@
 ---
 layout: default
 title: Use Cases
-nav_order: 5
+parent: Documentation
+nav_order: 2
 ---
+
 
 # Use Cases
 
