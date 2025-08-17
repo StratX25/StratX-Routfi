@@ -7,7 +7,7 @@ color_scheme: light
 
 # Add the CSS file we made
 assets:
-  - "assets/css"
+  - "assets/css/custom.css"
 
 # Quick navigation links in the header
 aux_links:
