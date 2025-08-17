@@ -1,2 +1,8 @@
 # Create file og.png
-echo 'iVBORw0KGgoAAAANSUhEUgAAA... (base64 shortened)' | base64 --decode > assets/social/og.png
+echo '# Create og.png from base64
+cat << 'EOF' | base64 --decode > assets/social/og.png
+iVBORw0KGgoAAAANSUhEUgAABJYAAAJWCAYAAADwxKFhAAAACXBIWXMAAAsTAAALEwEAmpwYAAAg
+AElEQVR4nOzdeXxU5b7H8W8isAIGEBjBwiwsq5JZlI2sq5LsmN1trG0Xo7YeSxmt9/2ubpXK9vRd
+...<snip, very long base64 data>...
+EOF
+' | base64 --decode > assets/social/og.png
