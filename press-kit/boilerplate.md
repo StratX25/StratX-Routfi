@@ -7,7 +7,7 @@ nav_order: 1
 
 # Boilerplate Copy
 
-## 100‑Word Description
+## Description
 
 StratX is a high‑level policy and orchestration layer, and RouteFi is an institutional wallet and routing engine. Together they connect legacy financial rails with central bank digital currencies and blockchain networks. StratX defines compliance rules that apply across rails; RouteFi executes those rules to move money through the most efficient path. This programmable, institution‑grade infrastructure is designed to reduce settlement times, increase transparency, and lower costs while maintaining regulatory compliance. Although targeted at institutions, the resulting efficiencies aim to benefit citizens through faster payments, lower fees, and clearer rules.
 
