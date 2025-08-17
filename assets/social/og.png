@@ -1,0 +1,2 @@
+# Create file og.png
+echo 'iVBORw0KGgoAAAANSUhEUgAAA... (base64 shortened)' | base64 --decode > assets/social/og.png
