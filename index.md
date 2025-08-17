@@ -3,7 +3,20 @@ layout: default
 title: Home
 nav_order: 1
 ---
+## LICENSE ##
 
+Proprietary License – StratX & RouteFi
+
+Copyright (c) 2025 Abel Justin Oliveira. All rights reserved.
+
+This repository and its contents are the proprietary intellectual property of the author(s).  
+StratX and RouteFi are patent-pending technologies and may not be copied, cloned, forked, modified, sublicensed, or redistributed in whole or in part without an executed licensing agreement and signed term sheet.
+
+Unauthorized use, reproduction, or distribution of this repository or its contents is strictly prohibited.  
+
+Licenses are available by request and subject to formal negotiation and written agreement.  
+Contact: StratX25@gmail.com
+---
 <div class="hero">
   <h1>Programmable Infrastructure that Unifies Legacy and DeFi Rails</h1>
   <p class="lead">
