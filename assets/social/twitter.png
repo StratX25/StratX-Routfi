@@ -1,2 +1,8 @@
 # Create file twitter.png
-echo 'iVBORw0KGgoAAAANSUhEUgAAA... (base64 shortened)' | base64 --decode > assets/social/twitter.png
+echo '# Create twitter.png from base64
+cat << 'EOF' | base64 --decode > assets/social/twitter.png
+iVBORw0KGgoAAAANSUhEUgAABJYAAAJGCAYAAAB7xVdcAAAACXBIWXMAAAsTAAALEwEAmpwYAAAg
+AElEQVR4nOzde3hU5b7H8dcIsAIGEBjBwiwsKZJZlI2sK5LsmN1trC0Xo7YfSxmtt/3uV5XK9vRd
+...<snip, very long base64 data>...
+EOF
+' | base64 --decode > assets/social/twitter.png
