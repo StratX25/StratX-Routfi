@@ -1,24 +1,20 @@
 
 ---
+---
 layout: default
-title: How It Fits Together
-nav_order: 4
+title: Benefits to Citizens
+nav_order: 6
 ---
 
-# How It Fits Together
+# Benefits to Citizens
 
-StratX and RouteFi work together to complete the circle between legacy and decentralized finance rails. StratX acts as the policy brain, defining what is allowed. RouteFi is the muscle that executes those policies across networks.
+While StratX and RouteFi are designed for institutions, their ripple effects can positively impact everyday people. By reducing friction and enabling clearer, rules-driven flows, this kind of infrastructure can support:
 
-## Legacy ↔ StratX ↔ RouteFi ↔ DeFi
+- **Faster settlement of wages and remittances**, giving people quicker access to their money.
+- **Lower fees**, as optimized routing reduces intermediaries and associated costs.
+- **More transparent rules**, so consumers know why transactions are allowed or denied.
+- **Better access**, enabling more people to participate in global commerce through simplified on-ramps.
 
-![Architecture diagram A]({{ site.baseurl }}/assets/svg/diagram-a.svg){: aria-label="Legacy to DeFi rails diagram"}
-
-*Diagram A: A simplified view showing how funds and messages flow from legacy systems through StratX and RouteFi to decentralized networks, with compliance gates ensuring policy is followed at each step.*
-
-## Policy-Driven Routing Flow
-
-![Routing flow diagram B]({{ site.baseurl }}/assets/svg/diagram-b.svg){: aria-label="Policy-driven routing flow diagram"}
-
-*Diagram B: Each transaction passes through ingest, policy checks, route selection, settlement, and audit. Policies defined in StratX guide RouteFi’s decisions, ensuring every step complies with institutional rules.*
+These benefits are aspirational: they describe what the system is designed to help achieve, not guaranteed outcomes. By improving efficiency and transparency, such infrastructure may contribute to price stability and ease tensions that sometimes lead to conflict.
 
 
