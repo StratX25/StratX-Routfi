@@ -6,4 +6,4 @@ baseurl: "/StratX-Routfi"
 color_scheme: light
 
 assets:
-  - "assets/css/custom.css"
+  - "assets/css/style.css"
