@@ -4,21 +4,25 @@ title: Home
 nav_order: 1
 ---
 
-# Programmable Infrastructure that Unifies Legacy and DeFi Rails
+<div class="hero">
+  <h1>Programmable Infrastructure that Unifies Legacy and DeFi Rails</h1>
+  <p class="lead">
+    StratX and RouteFi help institutions connect fiat systems and blockchain networks under clear, programmable rules—
+    so money moves smarter, safer, and faster.
+  </p>
+</div>
 
-StratX and RouteFi help institutions connect fiat systems and blockchain networks under clear, programmable rules—so money moves smarter, safer, and faster.
-
-## Why StratX & RouteFi?
-
-- **Policy-aware by design:** Compliance and policy enforcement are built into every transaction. StratX and RouteFi enforce rules before, during, and after settlement.
-- **Interoperability across rails:** Legacy banking systems, central bank digital currencies, and blockchain networks can interact seamlessly.
-- **Institution-grade controls:** Transparent, auditable flows with fine-grained access controls that meet the needs of governments, enterprises, and regulators.
-- **Programmable by nature:** Institutions can codify policies and update them without redeploying infrastructure.
-
-## Get Started
-
-Choose what you'd like to explore:
-
-- [Learn about StratX]({{ site.baseurl }}/stratx/)
-- [Explore RouteFi]({{ site.baseurl }}/routefi/)
-- [Read the FAQ]({{ site.baseurl }}/faq/)
+<div class="card">
+  <h2>Why StratX & RouteFi?</h2>
+  <ul>
+    <li><strong>Policy-aware</strong> by design: compliance checks before, during, and after settlement.</li>
+    <li><strong>Interoperable</strong> across rails: legacy banking, CBDCs, and blockchains interact seamlessly.</li>
+    <li><strong>Institution-grade controls</strong>: transparent, auditable flows with fine-grained access.</li>
+    <li><strong>Programmable by nature</strong>: update policy rules without redeploying infrastructure.</li>
+  </ul>
+  <p>
+    <a class="btn" href="{{ site.baseurl }}/stratx/">Learn about StratX</a>
+    <a class="btn" href="{{ site.baseurl }}/routefi/">Explore RouteFi</a>
+    <a class="btn" href="{{ site.baseurl }}/faq/">Read the FAQ</a>
+  </p>
+</div>
