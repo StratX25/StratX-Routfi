@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://StratX25.github.io/StratX-Routfi/sitemap.xml
