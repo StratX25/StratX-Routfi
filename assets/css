@@ -1,1 +1,45 @@
+:root {
+  --color-background: #ffffff;
+  --color-primary: #001f3f;   /* deep navy */
+  --color-link: #0074d9;      /* bright blue */
+  --color-border: #dddddd;
+  --color-text: #333333;
+}
+
+/* Base styling */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Links */
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--color-primary);
+  color: #ffffff;
+}
+
+/* Headings */
+h1, h2, h3 {
+  color: var(--color-primary);
+}
+
+/* Cards/boxes (optional use in future) */
+.card {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
 
