@@ -29,7 +29,7 @@ nav_order: 1
     <a class="btn" href="{{ site.baseurl }}/benefits/">Benefits to Citizens</a>
     <a class="btn" href="{{ site.baseurl }}/press-kit/">Press Kit</a>
     <a class="btn" href="{{ site.baseurl }}/legal/">Legal</a>
-    <a class="btn" href="{{ site.baseurl }}/news/">News & Updates</a>
+  <a class="btn" href="{{ site.baseurl }}/news/">News & Updates</a>
     <a class="btn" href="{{ site.baseurl }}/contact/">Contact</a>
     <a class="btn" href="{{ site.baseurl }}/changelog/">Changelog</a>
   </p>
