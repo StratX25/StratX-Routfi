@@ -1,0 +1,2 @@
+# Create file twitter.png
+echo 'iVBORw0KGgoAAAANSUhEUgAAA... (base64 shortened)' | base64 --decode > assets/social/twitter.png
