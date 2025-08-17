@@ -1,33 +1,49 @@
-# StratX & RouteFi Informational Site
 
-This repository contains a complete, production‑ready website built with Jekyll and the Just the Docs theme. It explains the high‑level purpose of StratX and RouteFi—connecting legacy financial rails with decentralized finance rails—without disclosing sensitive intellectual property.
+---
 
-## Deploying to GitHub Pages
+## 📂 Repository Structure
+- `index.md` → Home page
+- `stratx/` → Overview of StratX
+- `routefi/` → Overview of RouteFi
+- `architecture/` → “How It Fits Together” + diagrams
+- `use-cases/` → Practical applications
+- `benefits/` → Benefits to citizens
+- `faq/` → Frequently Asked Questions
+- `news/` → Blog updates
+- `legal/` → Privacy, Terms, and IP notices
+- `press-kit/` → Logos, boilerplate copy, and media resources
+- `assets/` → Images, SVG diagrams, CSS
 
-Follow these steps to publish the site:
+---
 
-1. **Create a repository:** If you don't already have one, create a new repository named `USERNAME.github.io`, replacing `USERNAME` with your GitHub username.
-2. **Copy the files:** Download or clone this repository and copy its contents into your `USERNAME.github.io` repository root.
-3. **Commit and push:** Commit all files and push to the `main` branch of your `USERNAME.github.io` repository.
-4. **Enable GitHub Pages:** In your repository’s settings, navigate to **Pages**, choose **Deploy from a branch**, select the `main` branch and `/` (root) directory, and click **Save**.
-5. **Wait for build:** GitHub Pages will build your site using Jekyll and the remote theme. After a few minutes, your site will be live at `https://USERNAME.github.io`.
-6. **Customize:** Edit `_config.yml` to update the `url`, `title`, `description`, and theme colors. You can also modify navigation links via the `aux_links` section.
+## 🛠 Development Notes
+- Theme: Just the Docs (remote theme, no build step needed on GitHub Pages)
+- Custom styling: `assets/css/custom.css`
+- Sitemap: `sitemap.xml`
+- Robots file: `robots.txt`
 
-## Maintenance Tips
+---
 
-- **Content updates:** Edit the Markdown files in place. New blog posts should be added under `news/_posts/` with filenames in the format `YYYY-MM-DD-title.md`.
-- **Images and assets:** Store additional images in `assets/` and reference them with relative paths in your Markdown files.
-- **Analytics:** The site ships without analytics. If you want privacy‑respecting analytics, consider adding a script from a provider like Plausible and update `privacy.md` accordingly.
-- **Sitemap and robots:** The sitemap (`sitemap.xml`) references `{{ site.url }}`. Set `url` in `_config.yml` to your domain so search engines find the correct links.
+## ⚠️ Important
+- This site is **informational only**. Nothing here is financial advice.
+- Sensitive intellectual property and unpublished claim language are **not** included.
+- Certain technologies may be covered by patent(s) pending.
 
-## Self‑Audit Note
+---
 
-This repository was carefully scanned to ensure that no blacklisted terms appear anywhere in the code, copy, comments, or assets. No sensitive IP or proprietary details are included.
+## 📜 License & Use
 
-## License
+This project is **not open source**. StratX and RouteFi are proprietary, patent-pending technologies.  
+- No cloning, forking, or reuse is permitted without a signed licensing agreement.  
+- All rights reserved.  
+- Licensing is available through formal negotiation and execution of a term sheet.
 
-This project is released under the MIT License. See [LICENSE](LICENSE) for details.
+For licensing inquiries, please contact: StratX25@gmail.com
 
-## Notice
 
-See [NOTICE](NOTICE.md) for trademark and patent notices.
+---
+
+## 👁 Self-Audit Note
+This repository has been carefully scanned to ensure:
+- No blacklisted terms appear in the code, copy, or assets.
+- No sensitive IP or unpublished claim details are included.
