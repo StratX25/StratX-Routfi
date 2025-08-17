@@ -1,24 +1,21 @@
 ---
 layout: default
-title: Home
-nav_order: 1
+title: How It Fits Together
+nav_order: 4
 ---
 
-# Programmable Infrastructure that Unifies Legacy and DeFi Rails
+# How It Fits Together
 
-StratX and RouteFi help institutions connect fiat systems and blockchain networks under clear, programmable rules—so money moves smarter, safer, and faster.
+StratX and RouteFi work together to complete the circle between legacy and decentralized finance rails. StratX acts as the policy brain, defining what is allowed. RouteFi is the muscle that executes those policies across networks.
 
-## Why StratX & RouteFi?
+## Legacy ↔ StratX ↔ RouteFi ↔ DeFi
 
-- **Policy-aware by design:** Compliance and policy enforcement are built into every transaction. StratX and RouteFi enforce rules before, during, and after settlement.
-- **Interoperability across rails:** Legacy banking systems, central bank digital currencies, and blockchain networks can interact seamlessly.
-- **Institution-grade controls:** Transparent, auditable flows with fine‑grained access controls that meet the needs of governments, enterprises, and regulators.
-- **Programmable by nature:** Institutions can codify policies and update them without redeploying infrastructure.
+![Architecture diagram A](/assets/svg/diagram-a.svg){: aria-label="Legacy to DeFi rails diagram"}
 
-## Get Started
+*Diagram A: A simplified view showing how funds and messages flow from legacy systems through StratX and RouteFi to decentralized networks, with compliance gates ensuring policy is followed at each step.*
 
-Choose what you'd like to explore:
+## Policy‑Driven Routing Flow
 
-- [Learn about StratX](/stratx/)
-- [Explore RouteFi](/routefi/)
-- [Read the FAQ](/faq/)
+![Routing flow diagram B](/assets/svg/diagram-b.svg){: aria-label="Policy-driven routing flow diagram"}
+
+*Diagram B: Each transaction passes through ingest, policy checks, route selection, settlement, and audit. Policies defined in StratX guide RouteFi’s decisions, ensuring every step complies with institutional rules.*
