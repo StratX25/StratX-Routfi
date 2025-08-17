@@ -3,6 +3,7 @@ layout: default
 title: A Vision for Citizens
 date: 2025-04-30
 nav_exclude: true
+collection: news
 ---
 
 
