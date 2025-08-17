@@ -9,16 +9,15 @@ color_scheme: light
 assets:
   - "assets/css/style.css"
 
-# Sidebar navigation order
-# You can set nav_order inside pages, but also group sections here
+# Sidebar nav order
 nav_order: 1
 
-# Aux links (top-right corner)
+# Aux links (top right)
 aux_links:
   "GitHub Repo":
     - "https://github.com/StratX25/StratX-Routfi"
 
-# Collections (optional if you want blog-style grouping)
+# Collections
 collections:
   news:
     output: true
